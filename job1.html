@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            margin-right: 20px;
+        }
+        .sidebar img {
+            width: 100%;
+        }
+        .sidebar-menu {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar-menu li {
+            margin-bottom: 10px;
+        }
+        .content {
+            flex-grow: 1;
+        }
+        .profile-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-info img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .profile-details {
+            line-height: 1.6;
+        }
+        .aside {
+            width: 150px;
+            margin-left: 20px;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+        .travel-log {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Hello World</h1>
+    </div>
+    <div class="navbar">
+        <a href="#">个人首页</a>
+        <a href="#">兴趣爱好</a>
+        <a href="#">旅行日志</a>
+        <a href="#">我的产品</a>
+        <a href="#">志愿经历</a>
+        <a href="#">自我评价</a>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <img src="profile-image.jpg" alt="Profile Image">
+            <ul class="sidebar-menu">
+                <li>个人首页</li>
+                <li>兴趣爱好</li>
+                <li>旅行日志</li>
+                <li>我的产品</li>
+                <li>志愿经历</li>
+                <li>自我评价</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>个人首页</h2>
+            <div class="profile-info">
+                <img src="avatar.jpg" alt="Avatar">
+                <div class="profile-details">
+                    <p>姓名：郑**</p>
+                    <p>电话：197*******</p>
+                    <p>地址：浙江省温州市</p>
+                    <p>邮箱：2022</p>
+                </div>
+            </div>
+            <h3>兴趣爱好</h3>
+            <p>平日喜欢爱小说，犹爱那些逻辑严密且轻松有趣的；还有听音乐，看视频。为保持自身身体健康，还喜欢跑步。</p>
+            <h3>旅行日志</h3>
+            <div class="travel-log">
+                <p>2025/8/10<br>这是我第一次去张家界，在这里，我感受到了山石的奇特壮丽，绿意盎然。</p>
+                <p>2025/7/6</p>
+            </div>
+        </div>
+        <div class="aside">
+            <p>菜单管理</p>
+            <p>我的优惠券</p>
+            <p>收藏的商品 ♥<br>您的收藏空的，赶紧去看看购物吧</p>
+            <p>购物车</p>
+        </div>
+    </div>
+</body>
+</html>
