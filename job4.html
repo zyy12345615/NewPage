@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>外语读本交流夜 - 招新</title>
+    <style>
+        .page {
+            display: inline-block;
+            background-color: #E6F8E0;
+            box-shadow: 0 0 30px rgba(80, 58, 35, 0.25);
+            text-align: left;
+            max-width: 720px;
+        }
+
+        /* 1. 并集选择器*/
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Microsoft YaHei", sans-serif;
+            color: #333333;
+
+        }
+
+        /* 2. ID选择器 */
+        p#intro {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2E7D32;
+
+        }
+
+        /* 3. 链接伪类 */
+        a:link {
+            color: #4285F4;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #9C27B0;
+        }
+
+        a:hover {
+            color: #F44336;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #FF9800;
+        }
+
+        /* 4. 带类名的链接 */
+        a.red {
+            color: #D32F2F;
+        }
+
+        a.blue {
+            color: #1976D2;
+        }
+
+        /* 5. 伪元素 */
+        p::first-letter {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2E7D32;
+        }
+
+        div::first-line {
+            font-weight: bold;
+            color: #5D4037;
+        }
+
+        /* 6. 后代选择器 */
+        div table a {
+            color: #0288D1;
+            font-weight: bold;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 10px 20px 20px;
+            width: calc(100% - 40px);
+        }
+
+        th,
+        td {
+            border: 1px solid #8D6E63;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #C8E6C9;
+        }
+
+        .notice {
+            color: #7a5246;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <!-- 1. 顶部标题区 -->
+        <div>
+            <h1>外语读本交流夜 · Foreign Book Meetup</h1>
+        </div>
+
+        <!-- 2. 活动介绍区 -->
+        <div>
+            <h2 id="intro">活动简介</h2>
+            <p>本活动由外语社团发起，旨在为热爱外语阅读的同学提供交流平台。在这里，你可以分享喜欢的外语书籍、交流阅读心得，还能认识志同道合的伙伴，提升外语应用能力。</p>
+            <p>We believe that reading is not only a way to gain knowledge, but also a bridge to connect different
+                cultures. Every participant is welcome to bring a foreign language book and share a short story from it.
+            </p>
+            <p id="intro">重要提示：参与活动需提前报名，现场将提供免费饮品和书籍借阅服务！</p>
+        </div>
+
+        <!-- 3. 活动报名信息表格区 -->
+        <div>
+            <h3>报名人员信息表</h3>
+            <table>
+                <tr>
+                    <th>姓名</th>
+                    <th>联系电话</th>
+                    <th>语言等级</th>
+                    <th>意向参与场次</th>
+                </tr>
+                <tr>
+                    <td>Oliver</td>
+                    <td>138 4466 1234</td>
+                    <td>托福必读</td>
+                    <td>第一周（周六19:00）</td>
+                </tr>
+                <tr>
+                    <td>Sofia</td>
+                    <td>139 8745 5678</td>
+                    <td>GMT必读</td>
+                    <td>第二周（周六19:00）</td>
+                </tr>
+                <tr>
+                    <td>张萌</td>
+                    <td>137 5523 9012</td>
+                    <td>雅思必读</td>
+                    <td>第一周（周六19:00）</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 4. 页面链接区 -->
+        <div>
+            <div>
+                <p>更多参考：
+                    <a href="https://hongchenwusdnu.github.io/bookstore/job4.html" class="red"
+                        target="_blank">查看往期活动照片</a> |
+                    <a href="https://zyy12345615.github.io/NewPage/job3.html" class="blue" target="_blank">在线咨询活动详情</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- 5. 底部公告区 -->
+        <div class="notice">
+            <p>【公告1】活动地点：学校图书馆3楼研讨室（每周六19:00-21:00）<br>
+                【公告2】首次参与活动可携带1本外语书籍兑换“阅读积分”，积分可兑换社团周边礼品<br>
+                【公告3】若活动当天临时无法参与，请提前2小时联系社团负责人（电话：136 3636 3456），感谢配合！</p>
+        </div>
+    </div>
+</body>
+
+</html>
